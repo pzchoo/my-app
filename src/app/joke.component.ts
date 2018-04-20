@@ -27,22 +27,8 @@ export class Joke {
             </div>
         </div>
         `
-    // template: `<h1>{{setup}}</h1>
-    // <p>{{punchline}}</p>` // string interpolation.
-    // template: `<h1> What did the cheese say when it looked in the mirror? </h1>
-    // <p>Halloumi (hello me)</p>`
 })
 export class JokeComponent {
     @Input() joke : Object;
-
-
-    // //typescript binding. ts syntax
-    // setup: string;
-    // punchline: string;
-
-    // constructor() {
-    //     this.setup = 'What did the cheese say when it looked in the mirror?';
-    //     this.punchline = 'Halloumi';
-    // }
 }
 
