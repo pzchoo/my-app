@@ -20,4 +20,7 @@ export class JokelistComponent implements OnInit {
   ngOnInit() {
   }
 
+  addJoke(joke){
+    this.jokes.unshift(joke);//unshift is js.. it's opposite of push, it pushes to the front instead of back. 
+  }
 }
