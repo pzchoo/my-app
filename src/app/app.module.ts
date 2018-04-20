@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { JokeComponent } from './joke.component'; 
-import { JokeListComponent } from './jokelist.component'; 
+import { JokeListComponent } from './jokelist.component';
+import { JokeFormComponent } from './joke-form/joke-form.component'; 
 
 // decorator called NgModule.. combines all your components. 
 @NgModule({
@@ -13,6 +14,7 @@ import { JokeListComponent } from './jokelist.component';
       AppComponent,
       JokeListComponent,
       JokeComponent,
+      JokeFormComponent,
   ],
   imports: [
     BrowserModule
