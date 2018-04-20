@@ -12,7 +12,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 const appRoutes:Routes = [
   {path:'', component: HomeComponent},
   {path:'jokes', component:JokelistComponent },
-  {path:'joke-list', redirectTo:'jokes'  }, 
+  {path:'joke-list', redirectTo:'jokes' }, 
+  {path:'joke/:id', component:JokeComponent }, 
   {path:'**', component: PageNotFoundComponent },
 ];
 
